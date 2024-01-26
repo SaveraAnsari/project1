@@ -1,0 +1,113 @@
+
+.section-title{
+    text-align: center;
+}
+.resume-section {
+    padding: 0;
+    margin-left: -200px;
+    text-align: center;
+    height: 250vh;
+    /* background-color:#050d18; */
+    background-image: url('./bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 115vw;
+    
+  }
+  .resume-section:hover{
+    transition: all 1s;
+  }
+  .shad{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: start;
+  }
+  .hh2{
+    margin-top: -40px;
+    font-size: 28px;
+    font-weight: 200;
+  }
+  .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  
+  .resume-item {
+    position: relative;
+    padding: 25px;
+    gap: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border: 1.5px solid darkcyan;
+    border-left: 5px solid wheat;
+    width: 25vw;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    
+    box-shadow: 0 0 10px darkcyan;
+    border-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    text-align: start;
+    
+  }
+  .resume-item:hover{
+    transition: all 1.5s ease-in-out;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transform: scale(1.1)
+  }
+  
+  .resume-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .resume-item h5 {
+    font-size: 16px;
+    background: transparent;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #1f5297;
+    border-bottom: 2px solid #1f5297;
+    padding: 20px 0;
+  }
+  
+  .col-lg-6 {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  
